@@ -1,6 +1,6 @@
 import main
 
-def test_hello():
+
+def test_main_has_hello_func():
     main.hello()
 
-    assert False
