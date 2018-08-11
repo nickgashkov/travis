@@ -2,7 +2,7 @@ language: python
 python:
   - "3.6"
 install:
-  - pip install -r requirements_ci.txt
+  - pip install -r ci-requirements.txt
 script:
   - isort --check-only main.py test_main.py
   - black --check main.py test_main.py
